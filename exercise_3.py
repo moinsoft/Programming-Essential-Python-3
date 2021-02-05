@@ -5,6 +5,7 @@ number2 = int(input("Please type another integer and press enter: "))
 
 
 print(number1, "+", number2, "=", number1+number2)
+print(f"{number1} + {number2} = {number1+number2}")
 
 # Arithmetic operators program
 
@@ -21,24 +22,23 @@ print(number1, "%", number2, "=", number1 % number2)
 number3 = int(input("Please type an integer and press enter: "))
 number4 = int(input("Please type another integer and press enter: "))
 
+print(f"{number3} - {number4} = {number3-number4}")
 
-print(number3, "-", number4, "=", number3-number4)
 
 # Multiplication program
 
 number5 = int(input("Please type an integer and press enter: "))
 number6 = int(input("Please type another integer and press enter: "))
 
+print(f"{number5} * {number6} = {number5*number6}")
 
-print(number5, "*", number6, "=", number5*number6)
 
-# Exponentiation program
+# Exponentiation/Power program
 
 number11 = int(input("Please type an integer and press enter: "))
 number12 = int(input("Please type another integer and press enter: "))
 
-
-print(number11, "**", number12, "=", number11**number12)
+print(f"{number11} ** {number12} = {number11**number12}")
 
 
 # Division program
@@ -46,21 +46,21 @@ print(number11, "**", number12, "=", number11**number12)
 number7 = int(input("Please type an integer and press enter: "))
 number8 = int(input("Please type another integer and press enter: "))
 
+print(f"{number7} / {number8} = {number7/number8}")
 
-print(number7, "/", number8, "=", number7/number8)
 
-# Floor division program
+
+# Floor/Integer division program
 
 number13 = int(input("Please type an integer and press enter: "))
 number14 = int(input("Please type another integer and press enter: "))
 
+print(f"{number13} // {number14} = {number13//number14}")
 
-print(number13, "//", number14, "=", number13//number14)
 
 # Modulus program
 
 number9 = int(input("Please type an integer and press enter: "))
 number10 = int(input("Please type another integer and press enter: "))
 
-
-print(number9, "%", number10, "=", number9 % number10)
+print(f"{number9} % {number10} = {number9%number10}")
